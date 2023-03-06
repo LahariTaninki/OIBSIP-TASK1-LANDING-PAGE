@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+}
+img{
+    width: 100%;
+}
+header{
+    height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("tra1.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    position: relative;
+}
+.logo{
+    float: left;
+    margin-left: -70px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color:#fabd02;
+    font-size: 32px;
+    font-weight: 750;
+    letter-spacing: 3px;
+    /* padding: 1px 2px; */
+    padding: 65px 0px 10px 0px;
+    border-radius: 32px;
+}
+.logo h2{
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.logo i{
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+span{
+    color: white;
+   
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    justify-content: center;
+    font-weight:bold ;
+    
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .3s;
+}
+.nav1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+    border-radius: 32px;
+     margin-top: 65px;
+    margin-right: 25px;
+   position: absolute;
+   top:0;
+   right: 0;
+   float: left;
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.fa-solid{
+    color:white;
+}
+.hai{
+    width:85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:40px ;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    vertical-align: center;
+}
+.main{
+    position:relative;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h1{
+    margin: 0 auto;
+    color: lightcyan;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-align:center;
+    vertical-align: center;
+    top: 90%;
+    left: 90%;
+}
+.text p{
+    color:white;
+    text-transform: 18px;
+    font-size: 18px;
+    margin-bottom:30px ;
+   word-spacing: 3px;
+   letter-spacing: 1px;
+   text-align:center;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+
+}
+.button{
+    position: absolute;
+    top: 215px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.but {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.but:hover{
+
+    background-color:#fff;
+    color:#000;
+}
+/* .section{
+    min-height: 0%;
+} */
+.footer{
+    margin-top: 2px;
+    background-color: rgb(21, 74, 74);
+}
+.about h2{
+    font-size: 40px;
+    font-weight: 650;
+    margin-top: -15px;
+    margin-bottom: 3px;
+    line-height: 90px;
+    text-align: center;
+}
+
+.foot{
+    padding: 20px 0;
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.footlinks h4{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.footlinks h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    left: 0;
+    bottom: -7px;
+    background: white;
+}
+
+.footlinks ul li{
+    margin-bottom: 15px;
+}
+
+.footlinks ul li a{
+    font-size: 17px;
+    color: #dddddd;
+    display: block;
+    transition: ease 0.30s;
+}
+
+.footlinks ul li a:hover{
+    transform: translate(6px);
+    color: white;
+}
+
+.social a{
+    font-size: 25px;
+    margin: 4px;
+    height: 40px;
+    width: 40px;
+    color: rgb(21, 74, 74);
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: ease 0.30s;
+}
+
+.social a:hover{
+    transform: scale(1.2);
+}
+
+.end{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 12px;
+}
+
+
